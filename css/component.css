@@ -7,7 +7,7 @@
 
 html,
 body,
-.st-container,
+
 .st-pusher,
 .st-content {
 	height: 100%;
@@ -25,9 +25,14 @@ body,
 
 .st-container {
 	position: relative;
+    
 	overflow: hidden;
 }
 
+.st-contain {
+	position: relative;
+	
+}
 .st-pusher {
 	position: relative;
 	left: 0;
