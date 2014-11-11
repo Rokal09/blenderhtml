@@ -5,31 +5,35 @@
     /*    border-bottom: 1px solid #aaa;*/
 }
 .section.intro {
-    background: #000 url(../img/bg1.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg1.jpg) no-repeat center center;
     background-size: cover;
 }
 .section.home {
-    background: #000 url(../img/bg2.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg2.jpg) no-repeat center center;
     background-size: cover;
 }
 .section.blenders {
-    background: #000 url(../img/bg3.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg3.jpg) no-repeat center center;
     background-size: cover;
 }
 .section.priyanka {
-    background: #000 url(../img/bg4.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg4.jpg) no-repeat center center;
     background-size: cover;
 }
 .section.tour {} .section.top {
-    background: #000 url(../img/bg5.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg5.jpg) no-repeat center center;
     background-size: cover;
 }
 .inspired {
-    background: #000 url(../img/bg6.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg6.jpg) no-repeat center center;
     background-size: cover;
 }
 .section.schedule {
     background: #000 url(../img/bg7.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.style-blender {
+    background: #000 url(../img/bg7.jpg) no-repeat center center;
     background-size: cover;
 }
 .hyderabad {
@@ -80,10 +84,12 @@ h6 {
     font-weight: 700;
 }
 h1 {
-    font-size: 90px;
+    font-size: 130px;
     letter-spacing: 15px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     color: #bda177;
+    font-weight: 600;
+    margin: 32px auto;
 }
 h2 {} h4 {
     font-size: 20px;
@@ -101,11 +107,11 @@ body a:hover {
 }
 .section.intro .content-center {
     text-align: center;
-    padding: 14% 0;
+    padding: 22% 0;
 }
 .section.intro .scroll {
     position: relative;
-    bottom: 20px;
+    bottom: 115px;
     width: 100%;
     right: 0px;
 }
@@ -144,6 +150,7 @@ a {
 }
 .section.home .contents {
     text-align: center;
+    margin: 36px;
 }
 .menu {
     padding-top: 10px;
@@ -185,17 +192,20 @@ a {
     border-bottom: 2px solid #bda177;
     color: white;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .contents .home-invite {
     background: #bda177;
-    width: 253px;
+    width: 300px;
     border-radius: 30px;
     position: relative;
-    left: 50%;
-    margin-left: -130px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    /* left: 50%; */
+    /* margin-left: -130px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px; */
+    margin: 70px auto;
+    bottom: 56px;
 }
 .contents .home-invite p {
     font-size: 15px;
@@ -220,6 +230,7 @@ a {
     padding: 12px 12px 11px;
     text-transform: uppercase;
     font-weight: 700;
+    text-shadow: none;
 }
 .contents p {
     font-size: 12px;
@@ -242,33 +253,43 @@ a {
 }
 .mid-content h3 {
     color: #fff;
-    font-size: 60px;
+    font-size: 36.62px;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 14px;
+    letter-spacing: 2px;
+}
+.head-foot h3{
+  color: #fff;
+    font-size: 36.62px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 .mid-content .content-center {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 130px;
 }
 .mid-content h5 {
     color: #bda177;
     font-size: 12px;
     font-family: "Josefin Sans";
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .mid-content .blend {
     background: #000;
-    width: 300px;
+    width: 350px;
     border-radius: 30px;
     position: relative;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: 25px;
+    /* left: 50%; */
+    /* margin-left: -150px; */
+    /* margin-top: 25px; */
     border: 1px solid #bda177;
-    margin-bottom: 50px;
+    /* margin-bottom: -12px; */
+    margin: 33px auto;
 }
 .mid-content p {
     font-size: 10.66px;
@@ -276,14 +297,14 @@ a {
     padding: 10px 0px 0px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .blender-bottom h5 {
     font-size: 50px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 7px;
 }
 .blender-bottom h6 {
@@ -332,15 +353,16 @@ a {
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 10px;
-    border-bottom: 2px solid #bda177;
+    border-bottom: 3px solid #bda177;
 }
 .section.priyanka .content-priya h6 {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    border-top: 2px solid #bda177;
+    border-top: 3px solid #bda177;
     letter-spacing: 2px;
     padding-top: 20px;
+    font-weight: 600;
 }
 .play {
     padding-bottom: 15px;
@@ -354,6 +376,9 @@ a {
     left: 130px;
     letter-spacing: 5px;
 }
+.follow {
+    padding-top: 30px;
+}
 .follow .gold {
     color: #bda177;
 }
@@ -364,9 +389,13 @@ a {
     font-size: 26px;
     letter-spacing: 2px;
     font-weight: 300;
+    font-style: italic;
 }
 .follows .gold {
     color: #bda177;
+}
+.style-pos {
+margin-top: 160px;
 }
 .follows h5 {
     text-align: center;
@@ -496,7 +525,8 @@ p.fa.fa-twitter .text {
     color: white;
     text-transform: uppercase;
     font-size: 32px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    font-style: italic;
 }
 .top-share {
     background: #bda177;
@@ -659,15 +689,16 @@ p.fa.fa-twitter .text {
     background: black;
 }
 .intro h4 {
-    font-size: 20px;
-    letter-spacing: 6px;
+    font-size: 27px;
+    letter-spacing: 7px;
+    margin: -20px;
 }
 .space {
     background: #000;
     height: 40px;
 }
 .col1 .panel-footer a {
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #e6e6e6;
     padding: 10px;
     display: inline-block;
     letter-spacing: normal;
@@ -880,10 +911,11 @@ i.fa.fa-microphone:hover {
     width: 350px;
     border-radius: 30px;
     position: relative;
-    left: 50%;
-    margin-left: -190px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    /* left: 50%; */
+    /* margin-left: -190px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
 }
 .home-invite p {
     font-size: 18px;
@@ -1089,21 +1121,21 @@ i.fa.fa-microphone:hover {
 }
 .schedule-head h5 {
     padding-top: 10px;
-    font-size: 45.78px;
+    font-size: 36.62PX;
     color: #fff;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .schedule-head h4 {
-    font-size: 60px;
+    font-size: 48PX;
     padding-bottom: 20px;
     color: #bda177;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
 }
 .icon-sche i.fa.fa-music {
     color: #bda177;
@@ -1608,6 +1640,25 @@ input.lockicon {
     letter-spacing: 2px;
     font-weight: 700;
 }
+.head-foot p{
+  text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17.42px;
+    letter-spacing: 4px;
+font-weight: 300;
+    font-style: italic;
+}
+.head-foot h4{
+  text-align: center;
+    color: #bda177;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 14px;
+font-weight: 700;
+    padding-bottom: 40px;
+    
+}
 .follow1 h4 {
     font-size: 17px;
     letter-spacing: 2px;
@@ -2069,4 +2120,59 @@ letter-spacing: 2px;
     border:solid #333333 1px;
     margin-right:6px;
     cursor:pointer;
+}
+
+.index {
+position: fixed;
+width: 90%;
+z-index: 100000000;
+}
+.signin a:hover {
+    color: #bda177;
+}
+.social a:hover {
+    color: #bda177;
+}
+.blenders-invite {
+background: #bda177;
+width: 429px;
+border-radius: 30px;
+position: relative;
+left: 50%;
+margin-left: -217px;
+margin-top: 50px;
+font-weight: 700;
+}
+.blenders-invite p {
+font-size: 15px;
+color: #000000;
+padding: 10px 10px;
+text-transform: uppercase;
+font-weight: 700;
+text-shadow: none;
+}
+.carousel-indicators li {
+display: inline-block;
+width: 10px;
+height: 10px;
+margin: 1px;
+text-indent: -999px;
+cursor: pointer;
+background-color: #000 ;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid #fff;
+border-radius: 10px;
+    display: none;
+}
+.contents h7 {
+font-size: 12px;
+color: #bda177;
+text-transform: uppercase;
+font-weight: 700;
+position: relative;
+top: 35px;
+letter-spacing: 2px;
+}
+.style-position{
+margin-top:30px
 }
